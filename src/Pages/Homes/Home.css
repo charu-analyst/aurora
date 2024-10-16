@@ -1,0 +1,24 @@
+.home-container {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    background-image: url('../../../public/backgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .home-container h2 {
+    font-size: 36px;
+    color: #111314;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: #262727;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

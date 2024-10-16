@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .our-journey {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .our-journey h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .slick-slider {
+    position: relative;
+  }
+  
+  .slick-slide {
+    padding: 0 5px;
+  }
+  
+  .journey-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .journey-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .journey-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    background: rgba(0, 0, 0, 0.4); /* Transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .journey-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Slick Arrow Styles */
+  .slick-prev,
+  .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .journey-card {
+        height: 200px;
+    }
+  
+    .slick-slide {
+        padding: 0 3px;
+    }
+  
+    .slick-prev, .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+        font-size: 30px;
+    }
+  }
+  

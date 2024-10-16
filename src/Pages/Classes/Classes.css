@@ -1,0 +1,35 @@
+.classes-container {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .classes-container h2 {
+    font-size: 36px;
+    color: #8e44ad;
+    margin-bottom: 20px;
+  }
+  
+  .classes-container ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .classes-container ul li {
+    font-size: 20px;
+    color: #34495e;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .classes-container p {
+    font-size: 18px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  
